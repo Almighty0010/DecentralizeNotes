@@ -1,0 +1,15 @@
+[package]
+name = "Decentralized-Note-taking-App"
+version = "1.0.0"
+authors = []
+
+[addresses]
+DecentralizedNotetTakingApp='0xf775470817a6bbbeab91b12b8d06682d6caf317c417ddf8d4f544e2ba834384c'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
